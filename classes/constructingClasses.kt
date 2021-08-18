@@ -16,5 +16,5 @@ class Person(val age: Int, val name: String){
 
 fun main(){
     var son = Person(20, "Alex")
-    var father = Person(45, "Oleg", son)
+    Person(45, "Oleg", son)
 }
